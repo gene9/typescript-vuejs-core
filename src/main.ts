@@ -1,5 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+//import * as VueAxios from 'vue-axios';
+
+import VueAuthenticate from 'vue-authenticate';
+import axios from 'axios';
+
 import App from './App.vue';
 import {AuthStore} from './stores/AuthStore';
 
