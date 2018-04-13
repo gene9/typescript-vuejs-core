@@ -65,8 +65,7 @@ module.exports = {
             inject: true,
             template: './assets/index.html'
         }),
-        new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.NamedModulesPlugin()
     ],
     devServer: {
         historyApiFallback: true,
