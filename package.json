@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gene9/typescript-vuejs-core#readme",
   "dependencies": {
+    "@websanova/vue-auth": "^2.21.6-beta",
     "axios": "^0.18.0",
     "bootstrap": "^4.1.0",
     "bootstrap-vue": "^2.0.0-rc.6",
@@ -27,6 +28,7 @@
     "vue-class-component": "^6.2.0",
     "vue-loader": "^14.2.2",
     "vue-property-decorator": "^6.0.0",
+    "vue-resource": "^1.5.0",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.16"
   },

@@ -3,8 +3,6 @@
         {{msg}}
         <Post>
         </Post>
-
-        <b-alert show>Default Alert</b-alert>
     </b-container>
 </template>
 

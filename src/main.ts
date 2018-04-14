@@ -1,9 +1,10 @@
+import axios from 'axios';
+
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-//import * as VueAxios from 'vue-axios';
+const VueAxios = require('vue-axios');
 
 import VueAuthenticate from 'vue-authenticate';
-import axios from 'axios';
 import BootstrapVue from 'bootstrap-vue';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -16,6 +17,7 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);
+Vue.use(VueAxios, axios);
 
 const routes = [
     { path: '/', component: App }
