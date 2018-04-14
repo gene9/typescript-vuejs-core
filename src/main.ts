@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 import Vue from 'vue';
+import Vuex from 'vuex';
 import VueRouter from 'vue-router';
 const VueAxios = require('vue-axios');
 
@@ -15,6 +16,7 @@ import {AuthStore} from './stores/AuthStore';
 
 Vue.config.productionTip = false;
 
+Vue.use(Vuex);
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);
 Vue.use(VueAxios, axios);

@@ -9,6 +9,7 @@ var root = path.resolve(__dirname, '.')
 // plugins
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var ProgressBarPlugin = require('progress-bar-webpack-plugin');
 
 module.exports = {
     context: sourcePath,
@@ -67,7 +68,8 @@ module.exports = {
             inject: true,
             template: './assets/index.html'
         }),
-        new webpack.NamedModulesPlugin()
+        new webpack.NamedModulesPlugin(),
+        new ProgressBarPlugin()
     ],
     devServer: {
         historyApiFallback: true,
